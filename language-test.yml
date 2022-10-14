@@ -1,0 +1,10 @@
+jobs:
+  include:
+  - name: “Ruby language basic test”
+    language: ruby
+    script:
+      - ruby ./source/ruby_hello.rb
+  - name: “Python language basic test”
+    language: python
+    script:
+      - ruby ./source/python_hello.py
